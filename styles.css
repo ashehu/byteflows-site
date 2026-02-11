@@ -233,6 +233,13 @@ textarea {
   background: white;
 }
 
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+
 footer {
   border-top: 1px solid var(--line);
   padding: 1.2rem 5vw 2rem;

@@ -131,14 +131,16 @@
             practical 90-day roadmap.
           </p>
         </div>
-        <form>
+        <form action="https://formspree.io/f/mykdkbvj" method="POST">
+          <input type="hidden" name="_subject" value="Byteflows Consultation Request" />
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp-field" />
           <label>
             Name
-            <input type="text" name="name" placeholder="Jane Doe" />
+            <input type="text" name="name" placeholder="Jane Doe" required />
           </label>
           <label>
             Work Email
-            <input type="email" name="email" placeholder="jane@company.com" />
+            <input type="email" name="email" placeholder="jane@company.com" required />
           </label>
           <label>
             Company
@@ -148,7 +150,7 @@
             What workflow should an agent own first?
             <textarea name="message" rows="4" placeholder="e.g., lead qualification, support triage, knowledge ops"></textarea>
           </label>
-          <button type="button" class="btn btn-primary">Request Consultation</button>
+          <button type="submit" class="btn btn-primary">Request Consultation</button>
         </form>
       </section>
     </main>
